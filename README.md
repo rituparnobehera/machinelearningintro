@@ -2,13 +2,10 @@
 
 ## Install Python
 
-Install Anaconda (**Python 2.7**) from:  [https://www.continuum.io/downloads](https://www.continuum.io/downloads)
-This includes python 2.7.9 and the necessary libraries we will be using: "numpy", "scipy" and "scikit-learn"
-
 ## Install Packages with pip
 
 Installing required packages using "pip"
-
+install "pip" carefully
 Open your terminal and check whether you have the "pip" function installed by typing pip (and enter).
 If you do not have pip installed, check the link: [https://pip.pypa.io/en/latest/installing/](https://pip.pypa.io/en/latest/installing/) (If installing via the terminal/command line, ensure you are in the directory where you have downloaded the file "get-pip" or if using chrome right-click on the link to download, save to desktop, and simply double click on the executable).
 
@@ -50,8 +47,8 @@ To execute the notebook, in your terminal run:
 
     ipython notebook load_libraries.ipynb
 
-* You can run the notebook document step-by-step (one cell a time) by pressing **shift + enter**.
-* You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
 * To restart the kernel (i.e. the computational engine), click on the menu Kernel -> Restart. This can be useful to start over a computation from scratch (e.g. variables are deleted, open files are closed, etc...).
 * Click on the menu Help -> User Interface Tour for an overview of the Jupyter Notebook App user interface.
+
+#please note the changes made
 
